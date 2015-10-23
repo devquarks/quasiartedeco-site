@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ens">
+<head>
+    <title>Quasi Arte decó</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Quasi Arte decó">
+    <meta name="author" content="Juan Pablo Norverto" />
+    <meta name="keywords" content="diseño, hogar, maschwitz, ambientación, almohada, mantel, mesa, silla" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Icons/FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- totop -->
+    <link rel="stylesheet" href="css/ui.totop.css" />
+    <!-- owl carusol -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <!-- zetta menu -->
+    <link rel="stylesheet" href="css/zetta-menu.min.css" />
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./galleria/galleria-1.4.2.min.js"></script>
+    <script src="./galleria/plugins/facebook/galleria.facebook.js"></script>
+    
+</head>
+		
+<body>
+
+	<!-- top header -->
+    <div>
+        <script>
+            $('div').load('header.html');
+        </script>
+    </div>
+    <!-- end top header -->
+
+ 	<section class="content">
+    	<div class="container">
+                <div class="col-md-offset-3">
+                    <script>
+                        Galleria.loadTheme('./galleria/themes/twelve/galleria.twelve.min.js');
+                        Galleria.run('#galleria', {
+                            facebook: 'album:145439282316149',
+                            width: 645,
+                            height: 450,
+                            lightbox: true,
+                            facebookOptions: {
+                                max: 50 // optional override for limit of 40 photos on an album
+                            }
+                        });
+                    </script>
+                    <div id="galleria"></div>
+                </div><!-- end col-sm-12 -->
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <script>
+            $('footer').load('footer.html');
+        </script>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.ui.totop.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
